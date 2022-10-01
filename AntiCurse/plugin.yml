@@ -1,0 +1,9 @@
+name: AntiCurse
+version: 1.2
+author: GFelberg
+api-version: 1.13
+main: me.GFelberg.AntiCurse.Main
+commands:
+  anticurse:
+    usage: /<command>
+    aliases: [ac]
