@@ -1,20 +1,26 @@
-# AntiCurse
+# AntiCurse ❌
+### **Portuguese:**
 O AntiCurse é um plugin simples para remover as maldições dentro de um item.
 
-Comandos:
-  - /anticurse - Remove maldição existente no item
-  - /anticurse help - Mostrar a página de ajuda de comandos
-  - /anticurse reload - Recarregar o plugin
-  
-Permissões:
-  - anticurse.anticurse : Acessar o comando AntiCurse
-  - anticurse.admin : Acessar a página de ajuda de comandos voltada aos administradores/moderadores
-  - anticurse.reload : Acessar o comando de recarregar o plugin
-  
-Versões Compatíveis:
-  - 1.11x até 1.19x
+### **English:**
+The AntiCurse is a simple plugin to remove the curses from an item.
 
-Hospedagem Alternativa:
+#### Commands:
+    /anticurse - Removes the curse from the item
+    /anticurse help - Shows the Help Page
+    /anticurse reload - Reloads the Plugin
+
+    aliases: [ac]
+  
+#### Permissions:
+    anticurse.anticurse : Access to the AntiCurse Command
+    anticurse.admin : Access to the Admin Help Page
+    anticurse.reload : Access to Reload the Plugin
+  
+#### Available in the following versions ⚙️:
+  - 1.11x - 1.19x
+
+#### Alternative Hosting 🏠:
   - Spigot: https://www.spigotmc.org/resources/anticurse.78957/
 
 ![image](https://user-images.githubusercontent.com/41524430/193423912-a062173e-7b64-4eb6-a65c-88e672a644b6.png)
