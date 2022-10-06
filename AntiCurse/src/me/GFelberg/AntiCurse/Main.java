@@ -15,10 +15,10 @@ public class Main extends JavaPlugin {
 		saveDefaultConfig();
 		AntiCurseUtils.loadVariables();
 		getCommand("anticurse").setExecutor(new AntiCurse());
-		Bukkit.getConsoleSender().sendMessage("-----------------------------");
+		Bukkit.getConsoleSender().sendMessage("----------------------------");
 		Bukkit.getConsoleSender().sendMessage("AntiCurse Plugin Enabled!");
-		Bukkit.getConsoleSender().sendMessage("Plugin develloped by GFelberg");
-		Bukkit.getConsoleSender().sendMessage("-----------------------------");
+		Bukkit.getConsoleSender().sendMessage("Plugin developed by GFelberg");
+		Bukkit.getConsoleSender().sendMessage("----------------------------");
 	}
 
 	public static Main getInstance() {
@@ -26,9 +26,9 @@ public class Main extends JavaPlugin {
 	}
 
 	public void onDisable() {
-		Bukkit.getConsoleSender().sendMessage("-----------------------------");
+		Bukkit.getConsoleSender().sendMessage("----------------------------");
 		Bukkit.getConsoleSender().sendMessage("AntiCurse Plugin Disabled!");
-		Bukkit.getConsoleSender().sendMessage("Plugin develloped by GFelberg");
-		Bukkit.getConsoleSender().sendMessage("-----------------------------");
+		Bukkit.getConsoleSender().sendMessage("Plugin developed by GFelberg");
+		Bukkit.getConsoleSender().sendMessage("----------------------------");
 	}
 }

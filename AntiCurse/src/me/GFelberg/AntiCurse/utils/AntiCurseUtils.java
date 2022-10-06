@@ -15,10 +15,10 @@ public class AntiCurseUtils {
 	public static String prefix, nocurse, removed, noitem;
 
 	public static void loadVariables() {
-		prefix = Main.getInstance().getConfig().getString("AntiCurse.Prefix").replace("&", "ง");
-		nocurse = Main.getInstance().getConfig().getString("AntiCurse.NoCurse").replace("&", "ง");
-		removed = Main.getInstance().getConfig().getString("AntiCurse.Removed").replace("&", "ง");
-		noitem = Main.getInstance().getConfig().getString("AntiCurse.NoItemHand").replace("&", "ง");
+		prefix = Main.getInstance().getConfig().getString("AntiCurse.Prefix").replace("&", "ยง");
+		nocurse = Main.getInstance().getConfig().getString("AntiCurse.NoCurse").replace("&", "ยง");
+		removed = Main.getInstance().getConfig().getString("AntiCurse.Removed").replace("&", "ยง");
+		noitem = Main.getInstance().getConfig().getString("AntiCurse.NoItemHand").replace("&", "ยง");
 	}
 
 	public void reloadConfig(Player p) {
@@ -29,9 +29,9 @@ public class AntiCurseUtils {
 			Main.getInstance().reloadConfig();
 			loadVariables();
 			p.sendMessage(prefix + " " + ChatColor.GREEN + "Plugin reloaded successfully!");
-			Bukkit.getServer().getConsoleSender().sendMessage("===========================================");
-			Bukkit.getServer().getConsoleSender().sendMessage(ChatColor.GREEN + "AntiCurse Plugin reloaded");
-			Bukkit.getServer().getConsoleSender().sendMessage("===========================================");
+			Bukkit.getConsoleSender().sendMessage("===========================================");
+			Bukkit.getConsoleSender().sendMessage(ChatColor.GREEN + "AntiCurse Plugin reloaded");
+			Bukkit.getConsoleSender().sendMessage("===========================================");
 		}
 	}
 
