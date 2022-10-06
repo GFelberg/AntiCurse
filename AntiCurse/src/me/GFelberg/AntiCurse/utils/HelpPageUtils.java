@@ -5,14 +5,14 @@ import me.GFelberg.AntiCurse.Main;
 public class HelpPageUtils {
 
 	public String getHelp_page() {
-		return Main.getInstance().getConfig().getString("Help.Page").replace("&", "ง");
+		return Main.getInstance().getConfig().getString("Help.Page").replace("&", "ยง");
 	}
 
 	public String getHelp_curse() {
-		return Main.getInstance().getConfig().getString("Help.Curse").replace("&", "ง");
+		return Main.getInstance().getConfig().getString("Help.Curse").replace("&", "ยง");
 	}
 
 	public String getHelp_reload() {
-		return Main.getInstance().getConfig().getString("Help.Reload").replace("&", "ง");
+		return Main.getInstance().getConfig().getString("Help.Reload").replace("&", "ยง");
 	}
 }
