@@ -4,6 +4,7 @@ import org.bukkit.Bukkit;
 import org.bukkit.plugin.java.JavaPlugin;
 
 import me.GFelberg.AntiCurse.commands.AntiCurse;
+import me.GFelberg.AntiCurse.data.AntiCurseSystem;
 import me.GFelberg.AntiCurse.utils.AntiCurseUtils;
 
 public class Main extends JavaPlugin {
@@ -13,7 +14,7 @@ public class Main extends JavaPlugin {
 	public void onEnable() {
 		instance = this;
 		saveDefaultConfig();
-		AntiCurseUtils.loadVariables();
+		loadVariables();
 		getCommand("anticurse").setExecutor(new AntiCurse());
 		Bukkit.getConsoleSender().sendMessage("----------------------------");
 		Bukkit.getConsoleSender().sendMessage("AntiCurse Plugin Enabled!");
@@ -30,5 +31,10 @@ public class Main extends JavaPlugin {
 		Bukkit.getConsoleSender().sendMessage("AntiCurse Plugin Disabled!");
 		Bukkit.getConsoleSender().sendMessage("Plugin developed by GFelberg");
 		Bukkit.getConsoleSender().sendMessage("----------------------------");
+	}
+
+	public void loadVariables() {
+		AntiCurseUtils.loadVariables();
+		AntiCurseSystem.loadVariables();
 	}
 }

@@ -22,7 +22,7 @@
 
 AntiCurse:
   Prefix: '&b[&cAntiCurse&b]&r'
-  NoCurse: '&cNo curse were found!'
+  NoCurse: '&cNo curse was found!'
   Removed: '&aThe curse has been removed!'
   NoItemHand: '&cYou dont have an item in your hand!'
 
@@ -31,5 +31,5 @@ AntiCurse:
 
 Help:
   Page: '&eShows this page'
-  Curse: '&eRemoves the curse from the item'
+  AntiCurse: '&eRemoves the curse from the item'
   Reload: '&eReloads the Plugin'

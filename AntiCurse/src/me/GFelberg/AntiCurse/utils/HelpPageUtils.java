@@ -9,7 +9,7 @@ public class HelpPageUtils {
 	}
 
 	public String getHelp_curse() {
-		return Main.getInstance().getConfig().getString("Help.Curse").replace("&", "§");
+		return Main.getInstance().getConfig().getString("Help.AntiCurse").replace("&", "§");
 	}
 
 	public String getHelp_reload() {

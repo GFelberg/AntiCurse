@@ -6,6 +6,7 @@ import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 
+import me.GFelberg.AntiCurse.data.AntiCurseSystem;
 import me.GFelberg.AntiCurse.utils.AntiCurseUtils;
 
 public class AntiCurse implements CommandExecutor {
@@ -27,9 +28,10 @@ public class AntiCurse implements CommandExecutor {
 
 			Player p = (Player) sender;
 			AntiCurseUtils utils = new AntiCurseUtils();
+			AntiCurseSystem sys = new AntiCurseSystem();
 
 			if (args.length == 0) {
-				utils.removeCurse(p);
+				sys.removeCurse(p);
 				return true;
 			}
 
