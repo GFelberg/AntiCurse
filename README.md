@@ -3,6 +3,8 @@
 ## English: :earth_americas:
 AntiCurse is a simple plugin to remove curses from an item.
 
+![AntiCurse](https://github.com/GFelberg/AntiCurse/assets/41524430/0886fff4-4c35-4977-9d00-36d3696a0854)
+
 ### Commands:
     /anticurse - Removes the curse from the item
     /anticurse help - Shows the Help Page
@@ -39,6 +41,8 @@ AntiCurse is a simple plugin to remove curses from an item.
 
 ## Portuguese: <img src="https://github.com/GFelberg/AntiCurse/assets/41524430/1dd09c0b-5594-48dd-a6c6-3432306cabf3" width="30" height="30">
 O AntiCurse é um plugin simples para remover as maldições dentro de um item.
+
+![AntiCurse](https://github.com/GFelberg/AntiCurse/assets/41524430/0886fff4-4c35-4977-9d00-36d3696a0854)
 
 ### Comandos:
     /back help - Mostrar a Página de Ajuda
