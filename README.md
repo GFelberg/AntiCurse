@@ -1,7 +1,7 @@
 # AntiCurse ❌ (1.11x - 1.20x)
 
 ## English: :earth_americas:
-AntiCurse is a simple plugin to remove curses from an item.
+AntiCurse is a simple plugin made for Minecraft which has the ability to remove curses from an item.
 
 ![AntiCurse](https://github.com/GFelberg/AntiCurse/assets/41524430/0886fff4-4c35-4977-9d00-36d3696a0854)
 
@@ -40,7 +40,7 @@ AntiCurse is a simple plugin to remove curses from an item.
 
 
 ## Portuguese: <img src="https://github.com/GFelberg/AntiCurse/assets/41524430/1dd09c0b-5594-48dd-a6c6-3432306cabf3" width="30" height="30">
-O AntiCurse é um plugin simples para remover as maldições dentro de um item.
+AntiCurse é um plugin simples desenvolvido para o Minecraft que possui a habilidade de remover as maldições dentro de um item.
 
 ![AntiCurse](https://github.com/GFelberg/AntiCurse/assets/41524430/0886fff4-4c35-4977-9d00-36d3696a0854)
 
