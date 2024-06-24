@@ -9,32 +9,32 @@ import me.GFelberg.AntiCurse.utils.AntiCurseUtils;
 
 public class Main extends JavaPlugin {
 
-	private static Main instance;
+    private static Main instance;
 
-	public void onEnable() {
-		instance = this;
-		saveDefaultConfig();
-		loadVariables();
-		getCommand("anticurse").setExecutor(new AntiCurse());
-		Bukkit.getConsoleSender().sendMessage("----------------------------");
-		Bukkit.getConsoleSender().sendMessage("AntiCurse Plugin Enabled!");
-		Bukkit.getConsoleSender().sendMessage("Plugin developed by GFelberg");
-		Bukkit.getConsoleSender().sendMessage("----------------------------");
-	}
+    public void onEnable() {
+        instance = this;
+        saveDefaultConfig();
+        loadVariables();
+        getCommand("anticurse").setExecutor(new AntiCurse());
+        Bukkit.getConsoleSender().sendMessage("----------------------------");
+        Bukkit.getConsoleSender().sendMessage("AntiCurse Plugin Enabled!");
+        Bukkit.getConsoleSender().sendMessage("Plugin developed by GFelberg");
+        Bukkit.getConsoleSender().sendMessage("----------------------------");
+    }
 
-	public static Main getInstance() {
-		return instance;
-	}
+    public static Main getInstance() {
+        return instance;
+    }
 
-	public void onDisable() {
-		Bukkit.getConsoleSender().sendMessage("----------------------------");
-		Bukkit.getConsoleSender().sendMessage("AntiCurse Plugin Disabled!");
-		Bukkit.getConsoleSender().sendMessage("Plugin developed by GFelberg");
-		Bukkit.getConsoleSender().sendMessage("----------------------------");
-	}
+    public void onDisable() {
+        Bukkit.getConsoleSender().sendMessage("----------------------------");
+        Bukkit.getConsoleSender().sendMessage("AntiCurse Plugin Disabled!");
+        Bukkit.getConsoleSender().sendMessage("Plugin developed by GFelberg");
+        Bukkit.getConsoleSender().sendMessage("----------------------------");
+    }
 
-	public void loadVariables() {
-		AntiCurseUtils.loadVariables();
-		AntiCurseSystem.loadVariables();
-	}
+    public void loadVariables() {
+        AntiCurseUtils.loadVariables();
+        AntiCurseSystem.loadVariables();
+    }
 }
